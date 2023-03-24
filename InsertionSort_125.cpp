@@ -46,7 +46,7 @@ void insertionsort()
 
         while (j >= 0 && arr[j] > temp)
         {
-
+            arr[j + 1] = arr[j];
         }
     }
 }
