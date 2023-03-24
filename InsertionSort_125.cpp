@@ -51,6 +51,7 @@ void insertionsort()
         }
 
         arr[j + 1] = temp;
+        cout << endl;
     }
 }
 int main()
